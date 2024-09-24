@@ -1,0 +1,87 @@
+body {
+	font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
+	background-color: #f7bf50;
+	font-size: 13px;
+	margin:0;
+	padding:0;
+	line-height: 1.5em;
+}
+#top{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height:210px;
+	background-color: #f7bf50;
+	z-index:1030;
+}
+#toplogo{
+	margin-left: auto;
+	margin-right: auto;
+	width: 210px;
+	background: #f7bf50;
+}
+#bottom{
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height:32px;
+	background-color:#000;
+}
+#bottomtext{
+	max-width:998px;
+	margin:0px auto;
+	padding:4px;
+	text-align:center;
+	color:#fffafa;
+}
+#maincontainer{
+	max-width: 978px; /*Width of main container*/
+	padding: 108px 0px 32px 0px;
+	margin: 0px auto; /*Center container on page*/
+  	margin-top: 100px;
+}
+#contentwrapper{
+	float: left;
+	max-width: 968px;
+}
+#contentcolumn{
+	margin:0 0px 0 0px; /*Margins for content column. Should be "0 RightColumnWidth 0 LeftColumnWidth*/
+	/* margin-right: 20px; */
+}
+.innertube{
+	margin: auto;/*Margins for inner DIV inside each column (to provide padding)*/
+	padding:10px 25px;
+	height: 170%;
+	/* width: 133%; */
+	max-width: 867px;
+	width: 130%;
+	background-color:#f7f4ef;
+	color:#725E4E;
+	min-height:700px;
+}
+a:link {color: #6881a2; font-weight: bold;}
+a:hover {text-decoration: underline; }
+a:active {}
+a:visited {color: #9580c9; font-weight: bold; text-decoration: none;}
+
+
+/*modified Css*/
+.innertube h2{
+  text-align: center;
+}
+
+.contentTittle{
+	text-align: center;
+}
+
+.innertube b{
+  font-size: 2em;
+}
+
+.subnav {
+	display: flex;
+	position: sticky;
+	top: 0px;
+}

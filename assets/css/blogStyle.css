@@ -1,0 +1,122 @@
+/* #comment{
+    color: green;
+} */
+/* #list.ul.li{
+    color: Green;
+} */
+/* #colorName{
+    color: brown;
+} */
+/*body {
+	font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
+	background-color: #f7bf50;
+	font-size: 13px;
+	margin:0;
+	padding:0;
+	line-height: 1.5em;
+}*/
+/*#top{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height:210px;
+	background-color: #f7bf50;
+	z-index:1030;
+}*/
+/*#toplogo{
+	margin-left: auto;
+	margin-right: auto;
+	width: 210px;
+	background: #f7bf50;
+}*/
+/*#bottom{
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height:32px;
+	background-color:#000;
+}*/
+/*#bottomtext{
+	width:998px;
+	margin:0px auto;
+	padding:4px;
+	text-align:center;
+	color:#fffafa;
+}*/
+/*#maincontainer{
+	width: 978px; 
+	padding: 108px 0px 32px 0px;
+	margin: 0px auto;
+  	margin-top: 100px;
+} */
+
+#maincontainer{
+	max-width: 978px; /*Width of main container*/
+	padding: 108px 0px 32px 0px;
+	margin: 0px auto; /*Center container on page*/
+  	margin-top: 100px;
+}
+#contentwrapper{
+	float: left;
+	/* width: 968px; */
+	max-width: 968px;
+}
+#contentcolumn{
+	margin:0 0px 0 30px; /*Margins for content column. Should be "0 RightColumnWidth 0 LeftColumnWidth*/
+}
+
+/* .innertube{
+	margin: 10px; /*Margins for inner DIV inside each column (to provide padding)*/
+	/* margin-top: 0;
+	padding:10px 20px;
+	height: 170%;
+	background-color:#f7f4ef;
+	color:#725E4E;
+	min-height:700px;
+	max-width: 978px;
+} */
+/*.innertube{
+	margin: 10px;
+	margin-top: 0;
+	padding:10px 20px;
+	height: 170%;
+	background-color:#f7f4ef;
+	color:#725E4E;
+	min-height:700px;
+}
+*/
+
+a:link {color: #6881a2; font-weight: bold;}
+a:hover {text-decoration: underline; }
+a:active {}
+a:visited {color: #9580c9; font-weight: bold; text-decoration: none;}
+
+
+/*modified Css*/
+.innertube h2{
+  text-align: center;
+}
+
+/* #liBlog{
+    background-color: lightcyan;
+} */
+a{
+    color: brown;
+}
+table{
+    border: 0.2em solid black;
+}
+td, th {
+    border-right: 0.2em solid black;
+    border-bottom: 0.1em solid black;
+}
+
+
+.subnav {
+	display: flex;
+	position: sticky;
+	top: 0px;
+
+}
